@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns="http://www.sonos.com/Services/1.1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:getSessionId>
+       	<ns:username>user</ns:username>
+       	<ns:password>password</ns:password>
+      </ns:getSessionId>
+   </soapenv:Body>
+</soapenv:Envelope>
