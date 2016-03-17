@@ -1,0 +1,28 @@
+{
+  	"smapi" : {
+  		"users" : {
+  			"name": {
+  				"id": "0001",
+  				"password": "password",
+  				"session": "12345-67-891"
+  			},
+  			"name2": {
+  				"id": "0000", 
+  				"password": "password",
+  				"session": "12345-67-890"
+  			},
+  			"name3": {
+  				"id": "0002",
+  				"password": "password"
+  			}
+  		},
+  		"sessions" : {
+  			"12345-67-891": {
+  				"owner": "name"
+  			},
+  			"12345-67-890": {
+  				"owner": "name2"
+  			}
+  		}
+  	}
+}

@@ -3,7 +3,7 @@
    <soapenv:Header/>
    <soapenv:Body>
       <ns:getSessionId>
-       	<ns:username>user</ns:username>
+       	<ns:username>name2</ns:username>
        	<ns:password>password</ns:password>
       </ns:getSessionId>
    </soapenv:Body>
